@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCases>
+<TestCase>
+<Name>IPR_Releases_Sprint4_176_Onboading_TC004_MVNDR_Add_AutoGenerateIDExceedsLimit</Name>
+<Status>PASS</Status>
+<Browser>Chrome 54.0.2840.99</Browser>
+<Priority>P1</Priority>
+<TimeTaken>00:02:05</TimeTaken>
+<StepsPassed>3</StepsPassed>
+<StepsFailed>0</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint4_176_Onboading_TC004_MVNDR_Add_AutoGenerateIDExceedsLimit</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint4_176_Onboading_TC004_MVNDR_Add_AutoGenerateIDExceedsLimit</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint4_176_Onboading_TC004_2016-12-07_09-09-48-AM.html</HTMLReportName>
+</TestCase>
+</TestCases>

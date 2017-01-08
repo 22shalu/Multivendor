@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po
+END
+ThankYouPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/ThankYouPage.java
+END
+ShippingPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/ShippingPage.class
+END
+CorMenuPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/CorMenuPage.java
+END
+PageBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PageBase.java
+END
+HomePage.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/HomePage.class
+END
+PIPPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PIPPage.class
+END
+PaymentPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PaymentPage.java
+END
+CheckoutSignInPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/CheckoutSignInPage.java
+END
+CommodityOnBoardingMVNDRPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/MerchandiseManagement/!svn/ver/638470/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/CommodityOnBoardingMVNDRPage.java
+END
+PLPPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PLPPage.class
+END
+ShippingPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/ShippingPage.java
+END
+ShoppingCartPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/ShoppingCartPage.class
+END
+ThankYouPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/ThankYouPage.class
+END
+HomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/HomePage.java
+END
+PIPPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PIPPage.java
+END
+PLPPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PLPPage.java
+END
+CorSignInPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/CorSignInPage.java
+END
+CommodityOnBoarding_CustomVendorGroup_Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 208
+/svn/MerchandiseManagement/!svn/ver/638470/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/CommodityOnBoarding_CustomVendorGroup_Page.java
+END
+PageBase.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PageBase.class
+END
+HomePage$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/HomePage$1.class
+END
+CheckoutSignInPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/CheckoutSignInPage.class
+END
+PaymentPage.class
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/PaymentPage.class
+END
+ShoppingCartPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/MerchandiseManagement/!svn/ver/635577/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/src/main/java/com/homer/po/ShoppingCartPage.java
+END

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCases>
+<TestCase>
+<Name>IPR_Releases_Sprint4_176_Onboading_TC005_MVNDR_Add_CancelButton</Name>
+<Status>PASS</Status>
+<Browser>Chrome 54.0.2840.99</Browser>
+<Priority>P1</Priority>
+<TimeTaken>00:01:00</TimeTaken>
+<StepsPassed>4</StepsPassed>
+<StepsFailed>0</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint4_176_Onboading_TC005_MVNDR_Add_CancelButton</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint4_176_Onboading_TC005_MVNDR_Add_CancelButton</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint4_176_Onboading_TC005_2016-12-05_14-22-06-PM.html</HTMLReportName>
+</TestCase>
+</TestCases>

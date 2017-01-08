@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCases>
+<TestCase>
+<Name>IPR_Releases_Sprint5_169_Onboading_TC001_MVNDR_EditButton_VerifyCommonMarketList_ForCustomProgram_SelectMarketUnderSameBYO</Name>
+<Status>PASS</Status>
+<Browser>Chrome 55.0.2883.75</Browser>
+<Priority>P3</Priority>
+<TimeTaken>00:00:11</TimeTaken>
+<StepsPassed>1</StepsPassed>
+<StepsFailed>0</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint5_169_Onboading_TC001_MVNDR_EditButton_VerifyCommonMarketList_ForCustomProgram_SelectMarketUnderSameBYO</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint5_169_Onboading_TC001_MVNDR_EditButton_VerifyCommonMarketList_ForCustom</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint5_169_Onboading_TC001_2016-12-19_09-58-37-AM.html</HTMLReportName>
+</TestCase>
+</TestCases>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MerchandiseManagement/!svn/ver/635571/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/config.properties
+END
+GridSetting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/GridSetting.xml
+END
+RunManager.xls
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/MerchandiseManagement/!svn/ver/638335/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/RunManager.xls
+END
+RunConfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MerchandiseManagement/!svn/ver/638328/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/RunConfig.properties
+END
+OfflineALMUpload.bat
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/OfflineALMUpload.bat
+END
+LastRun_FailedTC.xls
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/LastRun_FailedTC.xls
+END
+Run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/Run.bat
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/pom.xml
+END
+ReportFolder.groovy
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/ReportFolder.groovy
+END
+ExecutionClassConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/ExecutionClassConfig.xml
+END
+MultiBrowserSettings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/MerchandiseManagement/!svn/ver/635580/IPR/CommodityOrderRounding/cor/branches/COR_Selenium_Scripts/Homer_IPR_test%20-%20TestCopy/MultiBrowserSettings.xml
+END

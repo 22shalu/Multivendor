@@ -1,0 +1,96 @@
+@Onboarding_Add
+Feature: Adding vendors to the Custom Program name using the Add button in Custom Program group tab
+
+@P1 @6 @AddVendorsToCustomProgramPopUp @347
+  Scenario Outline: IPR_Releases_Sprint6_347_Onboading_TC001_CustomVendorGroup_AddVendor_Thru_MVendor_Field
+    Given a user launches gridtstats url in <Browser> with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and clicks on save button
+    Then verify that the <Custom_Program_Name> is saved in database and successful message is displayed 
+    Then user choose Custom Vendor Group tab
+    When user enters a <Custom_Program_Name> in Custom Program Name field who does not have any vendors attached to it and an error message should pop up
+    Then user clicks on Add button and add the vendors and verify if they are listed in the results grid for the <Custom_Program_Name>
+    
+    Examples: 
+      | Browser | userName |Password|Custom_Program_Name|
+      | Chrome  | qat010   |qa02test| CP NEW 4 FEB23    |
+      
+      
+@P1 @6 @AddDuplicateVendorsToCustomProgramPopUp @347
+  Scenario Outline: IPR_Releases_Sprint6_347_Onboading_TC002_CustomVendorGroup_AddDuplicateVendor
+    Given a user launches gridtstats url in <Browser> with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and clicks on save button
+    Then verify that the <Custom_Program_Name> is saved in database and successful message is displayed 
+    Then user choose Custom Vendor Group tab
+    When user enters a <Custom_Program_Name> in Custom Program Name field who does not have any vendors attached to it and an error message should pop up
+    Then user clicks on Add button and add the vendors and verify if they are listed in the results grid for the <Custom_Program_Name>
+    When user again clicks on Add button and trys to add duplicate vendor verify that error message is thrown
+    Then verify that the duplicate vendor is not listed in the results grid for <Custom_Program_Name>
+    
+     Examples: 
+      | Browser | userName |Password|Custom_Program_Name          |
+      | Chrome  | qat010   |qa02test| CP NEW NO VENDORS 5 FEB23   |
+  
+    
+
+@P1 @6 @RemoveAllVendorsFromCustomProgramPopUpAndSave @347
+  Scenario Outline: IPR_Releases_Sprint6_347_Onboading_TC003_CustomVendorGroup_AddNoVendor_Click_Save
+    Given a user launches gridtstats url in <Browser> with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose Custom Vendor Group tab
+    When user enters a <Custom_Program_Name> in Custom Program Name field who does not have any vendors attached to it and an error message should pop up 
+    Then user clicks on Add button and add the vendors and verify if they are listed in the results grid for the <Custom_Program_Name>
+    Then user again clicks on Add button for the <Custom_Program_Name> and using X symbol removes the vendor and click on save where the error message should be displayed as atleast one vendor should be there to save
+   
+   Examples: 
+      | Browser | userName |Password|Custom_Program_Name |
+      | Chrome  | qat010   |qa02test| CP 5 NOVENDORS 1   |
+      
+      
+@P1 @6 @SelectVendorsForCustomProgramThruVendorListPopup @347
+#Test data - remove the vendor Dateline from the custom program for this test case
+#Test data - remove ABTCO from the custom program name (selects the first record in vendor select browse pop up)
+  Scenario Outline: IPR_Releases_Sprint6_347_Onboading_TC004_CustomVendorGroup_AddVendor_Thru_VendorListDisplay_In_PopUp
+    Given a user launches gridtstats url in <Browser> with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose Custom Vendor Group tab
+    When user enters a <Custom_Program_Name> in Custom Program Name field 
+    Then user clicks on Add button for <Custom_Program_Name> and click on settings button next to MVNDR and choose the first vendor name from the list
+  
+   Examples: 
+      | Browser | userName |Password|Custom_Program_Name|
+      | Chrome  | qat010   |qa02test| ECLIPSE500         |
+      
+  @P1 @6 @CustomProgramResultGrid @347
+  #Test data - remove the vendor QEP underlayment from the custom program for this test case
+  Scenario Outline: IPR_Releases_Sprint6_347_Onboading_TC005_CustomVendorGroup_AddVendor_Thru_Search_Button_In_VendorList_PopUp
+    Given a user launches gridtstats url in <Browser> with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose Custom Vendor Group tab
+    When user enters a <Custom_Program_Name> in Custom Program Name field 
+    Then user clicks on Add button for <Custom_Program_Name> and click on settings button next to MVNDR and in the search field types in the vendor name and choose it from the result
+
+    Examples: 
+      | Browser | userName |Password|Custom_Program_Name|
+      | Chrome  | qat010   |qa02test| ECLIPSE500         |
+      
+  @P1 @6 @CustomProgramResultGrid @347
+  Scenario Outline: IPR_Releases_Sprint6_347_Onboading_TC006_CustomVendorGroup_AddVendor_Thru_Cancel_Button_In_VendorList_PopUp
+    Given a user launches gridtstats url in <Browser> with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose Custom Vendor Group tab
+    When user enters a <Custom_Program_Name> in Custom Program Name field who does not have any vendors attached to it and an error message should pop up
+    Then user clicks on Add button and add the vendors and then click on cancel for the <Custom_Program_Name> 
+    Then verify that the <Custom_Program_Name> still does not have any vendors attached to it
+    Examples: 
+      | Browser | userName |Password|Custom_Program_Name|
+      | Chrome  | qat010   |qa02test| CP 6 NOVENDORS 1    |

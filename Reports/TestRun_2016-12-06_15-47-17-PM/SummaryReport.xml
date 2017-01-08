@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCases>
+<TestCase>
+<Name>IPR_Releases_Sprint4_170_Onboading_TC003_CustomVendorGrp_InvalidSearch</Name>
+<Status>PASS</Status>
+<Browser>Chrome 54.0.2840.99</Browser>
+<Priority>P2</Priority>
+<TimeTaken>00:01:22</TimeTaken>
+<StepsPassed>3</StepsPassed>
+<StepsFailed>0</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint4_170_Onboading_TC003_CustomVendorGrp_InvalidSearch</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint4_170_Onboading_TC003_CustomVendorGrp_InvalidSearch</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint4_170_Onboading_TC003_2016-12-06_15-48-43-PM.html</HTMLReportName>
+</TestCase>
+</TestCases>

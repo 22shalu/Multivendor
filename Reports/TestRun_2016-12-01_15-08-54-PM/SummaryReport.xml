@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCases>
+<TestCase>
+<Name>IPR_Releases_Sprint4_176_Onboading_TC001_MVNDR_Add_SaveButton</Name>
+<Status>FAIL</Status>
+<Browser>Chrome 54.0.2840.71</Browser>
+<Priority>P1</Priority>
+<TimeTaken>00:01:31</TimeTaken>
+<StepsPassed>0</StepsPassed>
+<StepsFailed>1</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint4_176_Onboading_TC001_MVNDR_Add_SaveButton</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint4_176_Onboading_TC001_MVNDR_Add_SaveButton</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint4_176_Onboading_TC001_2016-12-01_15-10-27-PM.html</HTMLReportName>
+</TestCase>
+<TestCase>
+<Name>IPR_Releases_Sprint6_347_Onboading_TC002_CustomVendorGroup_AddDuplicateVendor</Name>
+<Status>FAIL</Status>
+<Browser>Chrome 54.0.2840.71</Browser>
+<Priority>P2</Priority>
+<TimeTaken>00:00:00</TimeTaken>
+<StepsPassed>0</StepsPassed>
+<StepsFailed>1</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint6_347_Onboading_TC002_CustomVendorGroup_AddDuplicateVendor</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint6_347_Onboading_TC002_CustomVendorGroup_AddDuplicateVendor</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint6_347_Onboading_TC002_2016-12-01_15-10-32-PM.html</HTMLReportName>
+</TestCase>
+</TestCases>

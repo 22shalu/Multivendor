@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><TestCases>
+<TestCase>
+<Name>IPR_Releases_Sprint7_382_Onboading_TC001_CustomVendorGroup_Update_And_Verify_In_MVNDR_tab</Name>
+<Status>PASS</Status>
+<Browser>Chrome 54.0.2840.99</Browser>
+<Priority>P2</Priority>
+<TimeTaken>00:01:47</TimeTaken>
+<StepsPassed>7</StepsPassed>
+<StepsFailed>0</StepsFailed>
+<ALMTCName>IPR_Releases_Sprint7_382_Onboading_TC001_CustomVendorGroup_Update_And_Verify_In_MVNDR_tab</ALMTCName>
+<QCSuite>Regression</QCSuite>
+<ReportFolderName>IPR_Releases_Sprint7_382_Onboading_TC001_CustomVendorGroup_Update_And_Verify_In_MVNDR_tab</ReportFolderName>
+<HTMLReportName>IPR_Releases_Sprint7_382_Onboading_TC001_2016-12-06_20-35-11-PM.html</HTMLReportName>
+</TestCase>
+</TestCases>

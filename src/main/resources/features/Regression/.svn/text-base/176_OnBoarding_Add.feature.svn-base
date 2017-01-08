@@ -1,0 +1,86 @@
+@Onboarding_Add
+Feature: Adding new program name in On boarding screen using the new Add button
+
+@P1 @4 @AddSave @176
+  Scenario Outline: IPR_Releases_Sprint4_176_Onboading_TC001_MVNDR_Add_SaveButton
+    Given a user launches gridtstats url with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and clicks on save button
+    Then verify that the <Custom_Program_Name> is saved in database and successful message is displayed    
+    
+    Examples: 
+      | userName |Password|Custom_Program_Name  |
+      | qat010   |qa02test|CP NEW 1 MAR29       |
+      | qat010   |qa02test|CP NEW 1 MAR30       |
+      
+      
+   @P1 @4 @AddDuplicate @176
+  Scenario Outline: IPR_Releases_Sprint4_176_Onboading_TC002_MVNDR_Add_DuplicateProgramName
+    Given a user launches gridtstats url with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and clicks on save button
+    Then verify that the <Custom_Program_Name> entered by the user is not saved in database and error message is displayed    
+    
+    Examples: 
+      | userName |Password|Custom_Program_Name  |
+      | qat010   |qa02test| CP NEW 1 FEB24      |
+      
+   
+    @P3 @4 @AddEmptyProgramName @176
+  Scenario Outline: IPR_Releases_Sprint4_176_Onboading_TC003_MVNDR_Add_EmptyProgramName
+    Given a user launches gridtstats url with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and without entering any program name user clicks on save button and an error message is thrown 
+        
+    Examples: 
+      | userName |Password|
+      | qat010   |qa02test|
+  
+    
+  @P1 @4 @AddExceedLimit @176
+  Scenario Outline: IPR_Releases_Sprint4_176_Onboading_TC004_MVNDR_Add_AutoGenerateIDExceedsLimit
+    Given a user launches gridtstats url with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    Then for testing purpose the database limit is set by an analyst
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and clicks on save button
+    Then verify that the <Custom_Program_Name> entered by the user is not saved in database and error message is displayed    
+    
+    Examples: 
+      | userName |Password|Custom_Program_Name|
+      | qat010   |qa02test|  Any CP           |
+      
+   @P3 @4 @AddCancel @176
+  Scenario Outline: IPR_Releases_Sprint4_176_Onboading_TC005_MVNDR_Add_CancelButton
+    Given a user launches gridtstats url with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and the click on cancel button closes pop up and the program name is not saved into the database
+        
+    Examples: 
+      | userName |Password|Custom_Program_Name|
+      | skp8998   |qa02test|  Any CP           |
+      
+    @P1 @5 @CustomProgramFlag @241
+  Scenario Outline: IPR_Releases_Sprint5_241_Onboading_TC001_MVNDR_AddButton_CustomVendorFlag_InDB
+    Given a user launches gridtstats url with <userName> and <Password>
+    Then a user launches COR url
+    Then user clicks on Program Set up and clicks on Commodity On Boarding
+    Then user choose MVNDR tab
+    When user clicks on Add button a pop up appears and user enters the <Custom_Program_Name> and clicks on save button
+    Then verify that the <Custom_Program_Name> is saved in database and successful message is displayed 
+    Then verify that the Custom Program Flag column in database is set to true for the <Custom_Program_Name>
+    
+    Examples: 
+      | userName |Password|Custom_Program_Name |
+      | qat010   |qa02test|CP NEW 2 FEB24      |
+      
+    
